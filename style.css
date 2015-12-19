@@ -1,0 +1,45 @@
+.adap{
+    border: 7px solid black;
+}
+.menu{
+    border: 5px solid red;
+}
+
+@media screen and (min-width: 1000px){
+    .sait{
+        width: 990px;
+        height: 850px;
+        margin:0 auto;
+        padding:10px 10px 10px 10px;
+        background: yellow;
+        opacity:0.3;
+    }
+
+    .menu{
+        width: 980px;
+        height: 70px;
+        background: green;
+        opacity:0.3;
+    }
+    .center{
+        width: auto;
+        height: 420;
+        padding:5px 5px 5px 5px;
+        background: green;
+    }
+    .left{
+        width: 20%;
+        height: 410px;
+        background: pink;
+        border: 2px solid blue;
+        float: left;
+    }
+
+    .footer{
+        width: 980px;
+        height: 120px;
+        padding:5px 5px 5px 5px;
+        background: blue;
+    }
+
+}
